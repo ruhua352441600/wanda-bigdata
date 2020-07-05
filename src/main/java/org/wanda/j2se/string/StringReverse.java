@@ -1,8 +1,8 @@
-package org.wanda.string;
+package org.wanda.j2se.string;
 
 public class StringReverse {
     public  static void main(String[] args){
-        String str = "abcd";
+        String str = "jack";
         System.out.println(reverseString(str));
 
         System.out.println(new StringBuilder(str).reverse().toString());
